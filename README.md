@@ -29,7 +29,7 @@ I looked at the distributions of the data and class balance.
 ## Model Building
 I had train, validation and test samples, so I didn't need split the data into train and tests sets.
 
-I tried four different classifiers and evaluated them using F-score, PR-curve and ROC-curve. 
+I tried four different classifiers and evaluated them using F-score, PR-curve and ROC-curve on the validation set. 
 
 * **Logistic Regression**
 * **Decision Tree Classifier**
@@ -37,7 +37,7 @@ I tried four different classifiers and evaluated them using F-score, PR-curve an
 * **SGD Classifier**
 
 ## Model Performance
-The Decision Tree Classifier far outperformed the other approaches on the train sets. 
+The Decision Tree Classifier far outperformed the other approaches on the validation set. 
 
 * **SGD Classifier**: F-score = 0.909
 * **Logistic Regression**: F-score = 0.914
@@ -50,5 +50,7 @@ Below are a few highlights from the pivot tables.
 ![](https://github.com/7emantik/test-project/blob/master/images/pr%20curves.png)
 ![](https://github.com/7emantik/test-project/blob/master/images/roc%20curves.png)
 
-## Classifiers quality report
+## Classifiers Quality Report
+I saved Decision Tree Classifier quality report as 'validation.txt' file.
 
+![](https://github.com/7emantik/test-project/blob/master/images/quality%20report.JPG)
