@@ -12,4 +12,7 @@ Created a tool that predicts whether a file is malicious based on a list of stat
 * Packages: pandas, numpy, sklearn, matplotlib, pickle
 
 ## Data Preprocessing
-The samples are presented in the form of **tsv** files with three columns - **is_virus** – whether the file is malicious: 1=yes, 0=no; **filename** - the file name for review; **libs** - comma-separated enumeration of libraries statically imported by this file (the LIEF library was used to get the list).
+The samples are presented in the form of .tsv files with three columns:
+**is_virus** – whether the file is malicious: 1=yes, 0=no; 
+**filename** - the file name for review; 
+**libs** - comma-separated enumeration of libraries statically imported by this file (the LIEF library was used to get the list).
