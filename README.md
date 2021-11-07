@@ -23,7 +23,7 @@ I needed to convert data so that it was usable for our models. I made the follow
 
 ##Exploratory data analysis
 I looked at the distributions of the data and class balance.
-![This is an image](file:///D:/Jupyter/pic/Class%20balance.png)
+![](https://user-images.githubusercontent.com/59449626/140651094-fe5c9750-f008-4fdc-9176-3da2cefc2ea0.png)
 
 Below are a few highlights from the pivot tables.
 
