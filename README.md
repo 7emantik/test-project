@@ -5,7 +5,7 @@ Created a tool that predicts whether a file is malicious based on a list of stat
 * Illustrated quality of classifiers by PR and ROC curves
 * Compiled a classifiers quality report (validation.txt)
 * Created a prediction of the file's malignancy based on the imported libraries (1 — if the file is malicious, 0 - otherwise) (prediction.txt)
-* Created an explanation file, where for each line of the test sample file contains the reason why the model considered this file malicious (the lines for non-malicious files remain empty) (explain.txt)
+* Created an explanation file, where for each line of the test sample file contains the reason why the model considered files malicious (the lines for non-malicious files remain empty) (explain.txt)
 
 ## Code and Resources Used
 * Python Version: 3.9.5
@@ -51,6 +51,9 @@ Below are a few highlights from the pivot tables.
 ![](https://github.com/7emantik/test-project/blob/master/images/roc%20curves.png)
 
 ## Model Predictions
-Classifier predicion is saved as 'prediction.txt'.
+The best classifier (classifier with the highest f-score) make a prediction, based on test sample. The prediction is saved as 'prediction.txt'.
 
 ## Explanation of Model Predictions
+The 'explanation.txt' file contains the reason why the classifier considered files malicious (the lines for non-malicious files remain empty). 
+
+Files for which the probability prediction is higher than the threshold are considered malicious.
