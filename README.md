@@ -24,7 +24,7 @@ I needed to convert data so that it was usable for our models. I made the follow
 ## Exploratory data analysis
 I looked at the distributions of the data and class balance.
 
-![](https://github.com/7emantik/test-project/blob/master/images/class%20balance)
+![](github.com/7emantik/test-project/blob/master/images/class%20balance)
 
 ## Model Building
 I had train, validation and test samples, so I didn't need split the data into train and tests sets.
@@ -39,9 +39,9 @@ I tried four different classifiers and evaluated them using F-score, PR-curve an
 ## Model Performance
 The Decision Tree Classifier far outperformed the other approaches on the test and validation sets.
 
-![](https://https://github.com/7emantik/test-project/blob/master/images/pr%20axises.png)
-![](https://https://github.com/7emantik/test-project/blob/master/images/pr%20curves.png)
-![](https://https://github.com/7emantik/test-project/blob/master/images/roc%20curves.png)
+![](https://github.com/7emantik/test-project/blob/master/images/pr%20axises.png)
+![](https://github.com/7emantik/test-project/blob/master/images/pr%20curves.png)
+![](https://github.com/7emantik/test-project/blob/master/images/roc%20curves.png)
 
 * **Logistic Regression**: F-score = 
 * **Decision Tree Classifier**: F-score =
