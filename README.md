@@ -21,9 +21,8 @@ I needed to convert data so that it was usable for our models. I made the follow
 * Convert text data to a matrix of token counts
 * Split the data into train subsets
 
-##Exploratory data analysis
+## Exploratory data analysis
 I looked at the distributions of the data and class balance.
-
 ![](https://user-images.githubusercontent.com/59449626/140651094-fe5c9750-f008-4fdc-9176-3da2cefc2ea0.png)
 
 Below are a few highlights from the pivot tables.
