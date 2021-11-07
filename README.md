@@ -37,7 +37,7 @@ I tried four different classifiers and evaluated them using F-score, PR-curve an
 * **SGD Classifier**
 
 ## Model Performance
-The Decision Tree Classifier far outperformed the other approaches on the validation set. 
+The Decision Tree Classifier far outperformed the other approaches on the validation set. Quality report of the best classifier is saved as a 'validation.txt'.
 
 * **SGD Classifier**: F-score = 0.909
 * **Logistic Regression**: F-score = 0.914
@@ -50,7 +50,7 @@ Below are a few highlights from the pivot tables.
 ![](https://github.com/7emantik/test-project/blob/master/images/pr%20curves.png)
 ![](https://github.com/7emantik/test-project/blob/master/images/roc%20curves.png)
 
-## Classifiers Quality Report
-I saved Decision Tree Classifier quality report as 'validation.txt' file.
+## Model Predictions
+Classifier predicion is saved as 'prediction.txt'.
 
-![](https://github.com/7emantik/test-project/blob/master/images/quality%20report.JPG)
+## Explanation of Model Predictions
