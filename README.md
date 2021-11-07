@@ -24,17 +24,25 @@ I needed to convert data so that it was usable for our models. I made the follow
 ## Exploratory data analysis
 I looked at the distributions of the data and class balance.
 
-![](https://user-images.githubusercontent.com/59449626/140651094-fe5c9750-f008-4fdc-9176-3da2cefc2ea0.png)
+![](https://github.com/7emantik/test-project/blob/master/images/class%20balance)
 
 ## Model Building
-I had train, validation and test samples, so i didn't need split the data into train and tests sets.
+I had train, validation and test samples, so I didn't need split the data into train and tests sets.
 
-I tried four different classifiers and evaluated them using F-score. 
+I tried four different classifiers and evaluated them using F-score, PR-curve and ROC-curve. 
 
 * **Logistic Regression**
 * **Decision Tree Classifier**
 * **K-Neighbors Classifier**
 * **SGD Classifier**
+
+## Model Performance
+The Decision Tree Classifier far outperformed the other approaches on the test and validation sets.
+
+* **Logistic Regression**: F-score = 
+* **Decision Tree Classifier**: F-score =
+* **K-Neighbors Classifier**: F-score =
+* **SGD Classifier**: F-score =
 
 Below are a few highlights from the pivot tables.
 
