@@ -6,3 +6,10 @@
 * Compiled a report on the quality of classifiers based on validation data (validation.txt)
 * Created a forecast of the file's malignancy based on the imported libraries (1 — if the file is malicious, 0 - otherwise) (prediction.txt)
 * Created an explanation file, where for each line of the test sample file contains the reason why the model considered this file malicious (the lines for non-malicious files remain empty) (explain.txt)
+
+## Code and Resources Used
+* Python Version: 3.9.5
+* Packages: pandas, numpy, sklearn, matplotlib, pickle
+
+## Data Preprocessing
+### The samples are presented in the form of **tsv** files with three columns - **is_virus** – whether the file is malicious: 1=yes, 0=no; **filename** - the file name for review; **libs** - comma-separated enumeration of libraries statically imported by this file (the LIEF library was used to get the list).
