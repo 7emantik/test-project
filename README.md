@@ -1,5 +1,5 @@
 # Data Science in Malicious Files Search: Project Overview
-### Created a tool that predicts whether a file is malicious based on a list of statically imported .exe file libraries
+Created a tool that predicts whether a file is malicious based on a list of statically imported .exe file libraries.
 * Preprocessed data for analysis
 * Conducted a comparative analysis of different classifiers: Logistic Regression, Decision Tree Classifier, K-Neighbors Classifier, SGD Classifier
 * Illustrated quality of classifiers by PR and ROC curves
@@ -12,4 +12,4 @@
 * Packages: pandas, numpy, sklearn, matplotlib, pickle
 
 ## Data Preprocessing
-### The samples are presented in the form of **tsv** files with three columns - **is_virus** – whether the file is malicious: 1=yes, 0=no; **filename** - the file name for review; **libs** - comma-separated enumeration of libraries statically imported by this file (the LIEF library was used to get the list).
+The samples are presented in the form of **tsv** files with three columns - **is_virus** – whether the file is malicious: 1=yes, 0=no; **filename** - the file name for review; **libs** - comma-separated enumeration of libraries statically imported by this file (the LIEF library was used to get the list).
