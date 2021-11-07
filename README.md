@@ -46,5 +46,9 @@ The Decision Tree Classifier far outperformed the other approaches on the train 
 
 Below are a few highlights from the pivot tables.
 
+![](https://github.com/7emantik/test-project/blob/master/images/pr%20axises.png)
+![](https://github.com/7emantik/test-project/blob/master/images/pr%20curves.png)
+![](https://github.com/7emantik/test-project/blob/master/images/pr%20axises.png)
+
 ## Classifiers quality report
 
