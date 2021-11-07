@@ -24,7 +24,7 @@ I needed to convert data so that it was usable for our models. I made the follow
 ## Exploratory data analysis
 I looked at the distributions of the data and class balance.
 
-![](github.com/7emantik/test-project/blob/master/images/class%20balance)
+![](https://github.com/7emantik/test-project/blob/master/images/class%20balance)
 
 ## Model Building
 I had train, validation and test samples, so I didn't need split the data into train and tests sets.
