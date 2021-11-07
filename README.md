@@ -31,10 +31,10 @@ I had train, validation and test samples, so i didn't need split the data into t
 
 I tried four different classifiers and evaluated them using F-score. 
 
-* **Logistic Regression
-* **Decision Tree Classifier
-* **K-Neighbors Classifier
-* **SGD Classifier
+* **Logistic Regression**
+* **Decision Tree Classifier**
+* **K-Neighbors Classifier**
+* **SGD Classifier**
 
 Below are a few highlights from the pivot tables.
 
