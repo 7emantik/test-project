@@ -9,7 +9,7 @@ Created a tool that predicts whether a file is malicious based on a list of stat
 
 ## Code and Resources Used
 * Python Version: 3.9.5
-* Packages: pandas, numpy, sklearn, matplotlib, pickle
+* Packages: pandas, numpy, sklearn, matplotlib
 
 ## Data Preprocessing
 The samples are presented in the form of .tsv files with three columns:
